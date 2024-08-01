@@ -10,9 +10,24 @@ struct registro{
     int asistencia;
 } empleado [50];
 
+registro empleadoGlobal; //variable global para que funcione con culalquier funcion
+
+struct inventario{
+    string nombre;
+    string categoria;
+    string marca;
+    string tipo; //solido, liquido, electronico, etc. //no se imprime
+    int cantidad; //se ve definido por el tipo
+    string codigo;
+    float precio;
+    int unidades;
+} producto [50];
+
+inventario productoGlobal; //variable global para que funcione con culalquier funcion
+
 int main () {
     string user, pass;
-    empleado[0].ID = "GG-001";
+    empleado[0].ID = "CEO-001";
     empleado[0].contra = "1234";
     cout << "Registrarse" << "\n";
     cout << "ID: "; cin >> user;
@@ -25,6 +40,7 @@ int main () {
         }
         else {
             cout << "Usuario o contraseña incorrecta." << "\n";
+            break;
         }
     }
     return 0;
