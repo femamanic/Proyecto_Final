@@ -6,6 +6,7 @@ void Contratar();
 void Despedir();
 void verRegistroDeEmpleados();
 void verReportesDeInventario();
+void verReportesDeCompras();
 void verReportesDeVentas();
 
 #endif // GERENTEGENERAL_H
