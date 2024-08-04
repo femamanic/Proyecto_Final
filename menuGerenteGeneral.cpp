@@ -17,16 +17,22 @@ void menuGerenteGeneral(){
         switch (n)
         {
         case 1:
+        void Contratar();
             break;
         case 2:
+        void Despedir();
             break;
         case 3:
+        void verRegistroDeEmpleados();
             break;
         case 4:
+        void verRegistroDeInventario();
             break;
         case 5:
+        void verReportesDeCompras();
             break;
         case 6:
+        void verReportesDeVentas();
             break;
         default:
             cout<<"----ERROR----\n";
