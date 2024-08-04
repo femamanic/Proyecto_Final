@@ -2,6 +2,7 @@
 #define GERENTEDETIENDA_H
 
 void menuGerenteDeTienda();
+void ComprarProducto();
 void AgregarProducto();
 void EliminarProducto();
 void verRegistroDeInventario();
