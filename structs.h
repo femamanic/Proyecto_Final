@@ -13,6 +13,7 @@ struct registro{
     int faltas;
     int asistencia;
 };
+extern int nEmpleados; //variable global para el total de empleados que hay en la empresa
 
 extern registro empleado [50]; //variable global para que funcione con culalquier funcion
 
