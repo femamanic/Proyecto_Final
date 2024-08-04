@@ -5,7 +5,7 @@ void menuGerenteGeneral();
 void Contratar();
 void Despedir();
 void verRegistroDeEmpleados();
-void verReportesDeInventario();
+void verRegistroDeInventario();
 void verReportesDeCompras();
 void verReportesDeVentas();
 
