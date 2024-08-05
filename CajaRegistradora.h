@@ -3,5 +3,6 @@
 
 void menucajero();
 void buscarProducto();
+void imprimirBoleta();
 
 #endif // !CAJAREGISTRADORA_H
