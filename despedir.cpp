@@ -8,7 +8,7 @@ void Despedir(){
     char a;
     cout<<"-----funcion de despedir empleados-----\n";
     cout<<"elija el numero de empleado que desea despedir: "<<endl;
-    for(int i=0;i<nEmpleados;i++){
+    for(int i=1;i<nEmpleados;i++){
         cout<<i+1<<": "<<empleado[i].nombre<<endl;
     }
     do{
