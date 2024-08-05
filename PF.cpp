@@ -3,7 +3,6 @@
 #include "GerenteGeneral.h"
 #include "GerenteDeTienda.h"
 #include "Contador.h"
-#include "DepartamentoDeTesoreria.h"
 #include "database.h"
 #include "CajaRegistradora.h"
 using namespace std;
@@ -38,5 +37,6 @@ int main () {
         } else if (user.substr(0, 3) == "CAS") {
             menuCajaRegistradora();
         }
-    } while (true);
+    } while (user == "exit");
+    return 0;
 }
