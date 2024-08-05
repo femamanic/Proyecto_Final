@@ -1,8 +1,9 @@
 #include "CajaRegistradora.h"
+#include "GerenteGeneral.h"
 #include <iostream>
 using namespace std;
 
-void munucajero(){
+void menucajero(){
     int n,b=0;
     system ("cls");
     do{
@@ -14,10 +15,10 @@ void munucajero(){
     cout<<"elija una opcion: ";cin>>n;
     switch(n){
         case 1:
-            buscarProducto();
+            BuscarProducto();
         break;
         case 2:
-            mostrarproducto();
+            verRegistroDeInventario();
         break;
         case 3:
             imprimirBoleta();
