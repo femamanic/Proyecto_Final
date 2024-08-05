@@ -5,7 +5,7 @@ using namespace std;
 
 void Contratar(){
     int n,e=0;
-    cout<<"usted a ingresado a la funcion contratar"<<endl;
+    cout<<"----usted a ingresado a la funcion contratar----"<<endl;
     cout<<"ingrese la cantidad de empleados a contratar: ";cin>>n;
     for(int i=0;i<n;i++){
         nEmpleados=nEmpleados+1;
