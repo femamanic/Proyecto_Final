@@ -24,8 +24,6 @@ struct inventario{
     string nombre;
     string categoria;
     string marca;
-    string tipo; //solido, liquido, electronico, etc. //no se imprime
-    int cantidad; //se ve definido por el tipo
     string codigo;
     float precio;
     float costo;
