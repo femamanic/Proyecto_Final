@@ -25,7 +25,6 @@ void menucajero(){
             break;
             default:
                 cout<<"opcion incorrecta."<<endl;
-                b++;
             break;
         }
     }while(n!=0);
