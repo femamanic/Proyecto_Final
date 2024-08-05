@@ -29,7 +29,7 @@ int main () {
             cout << "ID o Password incorrecta\n";
         } else if (user.substr(0, 3) == "CEO") {
             menuGerenteGeneral();
-        } else if (user.substr(0, 3) == "SMT") {
+        } else if (user.substr(0, 3) == "STM") {
             menuGerenteDeTienda();
         } else if (user.substr(0, 3) == "CAS") {
             menucajero();
