@@ -32,7 +32,7 @@ int main () {
         } else if (user.substr(0, 3) == "SMT") {
             menuGerenteDeTienda();
         } else if (user.substr(0, 3) == "CAS") {
-            menuCajaRegistradora();
+            menucajero();
         }
     } while (user == "exit");
     return 0;

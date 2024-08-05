@@ -6,6 +6,7 @@ void Despedir(){
     int n,o;
     int b=0;
     char a;
+    system ("cls");
     cout<<"-----funcion de despedir empleados-----\n";
     cout<<"elija el numero de empleado que desea despedir: "<<endl;
     for(int i=1;i<nEmpleados;i++){

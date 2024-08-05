@@ -1,6 +1,6 @@
 #include "GerentedeTienda.h"
-#include<iostream>
-#include"structs.h"
+#include <iostream>
+#include "structs.h"
 using namespace std;
 
 void AgregarProducto(){
@@ -13,8 +13,6 @@ void AgregarProducto(){
         cout << "Ingrese el nombre del nuevo producto: "; getline(cin, producto[nProductos].nombre);
         cout << "Ingrese la categoria del nuevo producto: "; getline(cin, producto[nProductos].categoria);
         cout << "Ingrese la marca del nuevo producto: "; getline(cin, producto[nProductos].marca);
-        cout << "Ingrese el tipo de nuevo producto: ";cin>>producto[nProductos].tipo;
-        cout << "Ingrese la cantidad del nuevo producto: ";cin>>producto[nProductos].cantidad;
         cout << "Ingrese el codigo del nuevo producto: ";cin>>producto[nProductos].codigo;
         cout << "Ingrese el precio del nuevo producto: ";cin>>producto[nProductos].precio;
         cout << "Ingrese el costo del nuevo producto: ";cin>>producto[nProductos].costo;

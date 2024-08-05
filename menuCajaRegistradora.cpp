@@ -10,7 +10,6 @@ void menucajero(){
         cout<<"---BIENVENIDO AL MENU DEL CAJERO---"<<endl;
         cout<<"[1] buscar producto."<<endl;
         cout<<"[2] mostrar producto."<<endl;
-        cout<<"[3] imprimir boleta."<<endl;
         cout<<"[0] salir."<<endl;
         cout<<"elija una opcion: ";cin>>n;
         switch(n){
@@ -18,10 +17,8 @@ void menucajero(){
                 BuscarProducto();
             break;
             case 2:
-                verRegistroDeInventario();
+                VerRegistrodeInventario();
             break;
-            case 3:
-                imprimirBoleta();
             break;
             default:
                 cout<<"opcion incorrecta."<<endl;

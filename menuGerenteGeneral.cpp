@@ -25,7 +25,7 @@ void menuGerenteGeneral(){
          verRegistroDeEmpleados();
             break;
         case 4:
-         verRegistroDeInventario();
+         VerRegistrodeInventario();
             break;
         default:
             cout<<"----ERROR----\n";

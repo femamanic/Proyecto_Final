@@ -1,4 +1,5 @@
 #include "GerenteDeTienda.h"
+#include "GerenteGeneral.h"
 #include <iostream>
 using namespace std;
 
@@ -17,7 +18,7 @@ void menuGerenteDeTienda(){
 
         switch (opcion) {
         case 1:
-            AgregarProducto()//Agregar Producto
+            AgregarProducto();//Agregar Producto
             break;
         case 2:
             EliminarProducto();//Eliminar Producto
