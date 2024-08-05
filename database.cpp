@@ -5,12 +5,10 @@ void basedatosEmpleados(){
     empleado[1] = {"CEO-002", "Esteban nato", "83716258", "esteban123", 6000.00, "Gerencia General", false};
     empleado[2] = {"STM-001", "Juan Perez", "83716232", "juan123", 3500.00, "Gestion de Tienda", false};
     empleado[3] = {"STM-002", "Manolo diaz", "83716212", "manolo123", 3000.00, "Gestion de Tienda", false};
-    empleado[4] = {"ACC-001", "Julio mendez", "83357618", "julio123", 3300.00, "Contabilidad", false};
-    empleado[5] = {"ACC-002", "Alessandro Mejia", "73613826", "alessandro123", 2000.00, "Contabilidad", false};
-    empleado[6] = {"CAS-001", "Jose Zegarra", "93517358", "jose123", 1700.00, "Caja Registradora", false};
-    empleado[7] = {"CAS-002", "Maria Castro", "91325678", "maria123", 1700.00, "Caja Registradora", false};
-    empleado[8] = {"CAS-003", "Laura Ruiz", "78965432", "laura123", 1700.00, "Caja Registradora", false};
-    nEmpleados = 9;
+    empleado[4] = {"CAS-001", "Jose Zegarra", "93517358", "jose123", 1700.00, "Caja Registradora", false};
+    empleado[5] = {"CAS-002", "Maria Castro", "91325678", "maria123", 1700.00, "Caja Registradora", false};
+    empleado[6] = {"CAS-003", "Laura Ruiz", "78965432", "laura123", 1700.00, "Caja Registradora", false};
+    nEmpleados = 7;
 
 }
 void basedatosProductos(){
