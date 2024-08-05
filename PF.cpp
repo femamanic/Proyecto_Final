@@ -1,5 +1,9 @@
 #include <iostream>
 #include "structs.h"
+#include "GerenteGeneral.h"
+#include "GerenteDeTienda.h"
+#include "Contador.h"
+#include "DepartamentoDeTesoreria.h"
 using namespace std;
 
 int main () {
@@ -23,6 +27,8 @@ int main () {
     if (confirmar == false) {
         cout << "ID o Password incorrecta\n";
     }
-
-    return 0;
+    
+    if (user.substr(0, 3) == "CEO") {
+        menuGerenteGeneral();
+    }
 }

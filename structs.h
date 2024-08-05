@@ -8,12 +8,15 @@ using namespace std;
 struct registro{
     string ID;
     string nombre;
+    string DNI;
     string contra;
     float sueldo;
-    int faltas;
-    int asistencia;
+    string Area;
+    int horasDeTrabajo;
+    bool sueldoAprobado = false;
 };
-extern int nEmpleados=0; //variable global para el total de empleados que hay en la empresa
+
+extern int nEmpleados; //variable global para el total de empleados que hay en la empresa
 
 extern registro empleado [50]; //variable global para que funcione con culalquier funcion
 
@@ -25,8 +28,11 @@ struct inventario{
     int cantidad; //se ve definido por el tipo
     string codigo;
     float precio;
+    float costo;
     int unidades;
 };
+
+extern int nProductos; //variable global para el total de productos que hay en la empresa
 
 extern inventario producto [50]; //variable global para que funcione con culalquier funcion
 
