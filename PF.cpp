@@ -7,7 +7,7 @@ int main () {
     string user, pass;
     empleado[0].ID = "CEO-001";
     empleado[0].contra = "12345";
-    cout << "Registrarse" << "\n";
+    cout << "ingresar" << "\n";
     cout << "ID: "; cin >> user;
     cout << "Password: "; cin >> pass;
     
