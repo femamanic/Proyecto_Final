@@ -2,7 +2,7 @@
 #define CAJAREGISTRADORA_H
 
 void menucajero();
-void buscarProducto();
+void BuscarProducto();
 void imprimirBoleta();
 
 #endif // !CAJAREGISTRADORA_H
