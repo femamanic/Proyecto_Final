@@ -3,14 +3,14 @@ int main() {
     int opcion;
 
     do {
-        std::cout << "======Menu======";
-        std::cout << "1. Agregar Producto";
-        std::cout << "2. Quitar Producto";
-        std::cout << "3. Mostrar Todos los Productos";
-        std::cout << "4. Anadir Descuentos u Ofertas";
-        std::cout << "5. Salir";
-        std::cout << "Seleccione una opcion: ";
-        std::cin >> opcion;
+        cout << "======Menu======";
+        cout << "1. Agregar Producto";
+        cout << "2. Quitar Producto";
+        cout << "3. Mostrar Todos los Productos";
+        cout << "4. Anadir Descuentos u Ofertas";
+        cout << "5. Salir";
+        cout << "Seleccione una opcion: ";
+        cin >> opcion;
 
         switch (opcion) {
         case 1:
