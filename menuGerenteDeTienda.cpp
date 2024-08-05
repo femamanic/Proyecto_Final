@@ -1,5 +1,8 @@
-int main() {
-    Inventario inventario;
+#include "menuGerenteDeTienda.h"
+#include<iostream>
+using namespace std;
+
+void menuGerenteDeTienda(){
     int opcion;
 
     do {
@@ -30,8 +33,8 @@ int main() {
             break;
         default:
             //Opcion no valida
-        }
-    } while (opcion != 5);
+            }
+        } while (opcion != 5);
 
     return 0;
-}
+    }
