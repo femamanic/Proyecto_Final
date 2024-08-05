@@ -2,7 +2,6 @@
 #include "structs.h"
 #include "GerenteGeneral.h"
 #include "GerenteDeTienda.h"
-#include "Contador.h"
 #include "database.h"
 #include "CajaRegistradora.h"
 using namespace std;
@@ -19,7 +18,7 @@ int main () {
         
         bool confirmar = false;
 
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < nEmpleados; i++) {
             if (user == empleado[i].ID && pass == empleado[i].contra) {
                 cout << "Bienvenido\n";
                 confirmar = true;
@@ -32,8 +31,6 @@ int main () {
             menuGerenteGeneral();
         } else if (user.substr(0, 3) == "SMT") {
             menuGerenteDeTienda();
-        } else if (user.substr(0, 3) == "ACC") {
-            menuContador();
         } else if (user.substr(0, 3) == "CAS") {
             menuCajaRegistradora();
         }
