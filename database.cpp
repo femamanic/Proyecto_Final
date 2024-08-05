@@ -10,8 +10,7 @@ void basedatosEmpleados(){
     empleado[6] = {"CAS-001", "Jose Zegarra", "93517358", "jose123", 1700.00, "Caja Registradora", false};
     empleado[7] = {"CAS-002", "Maria Castro", "91325678", "maria123", 1700.00, "Caja Registradora", false};
     empleado[8] = {"CAS-003", "Laura Ruiz", "78965432", "laura123", 1700.00, "Caja Registradora", false};
-    empleado[9] = {"TRE-001", "Juan Carlos", "98765432", "juancarlos123", 1700.00, "Tesoreria", false};
-    nEmpleados = 10;
+    nEmpleados = 9;
 
 }
 void basedatosProductos(){
