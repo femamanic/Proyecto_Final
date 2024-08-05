@@ -5,7 +5,7 @@
 using namespace std;
 
 void AprobarCheques() {
-    int opcion;
+    int opcion; op;
     for (int i = 0; i < (nEmpleados + 1); i++){
         cout << "Codigo:\t" << empleado[i].ID;
         cout << "Nombre:\t" << empleado[i].nombre;
@@ -17,10 +17,30 @@ void AprobarCheques() {
         switch (opcion) {
             case 1:
                 empleado[i].sueldoAprobado = true;
+
                 break;
             case 0:
-                empleado[i].sueldoAprobado = false;
+                cout << "\r[1] Corregir";
+                cout << "[2] Reportar";
+                cout << "-----------------------------------\n";
+                cout << "Opcion: "; cin >> op;
+                switch (op) {
+                    case 1:
+                        cout << "Codigo:\t" << empleado[i].ID;
+                        cout << "Nombre:\t" << empleado[i].nombre;
+                        cout << "DNI:\t" << empleado[i].DNI;
+                        cout << "Sueldo:\t" << empleado[i].sueldo;
+                        cout << "Area de trabajo:\t" << empleado[i].area;
+                        empleado[i].sueldoAprobado = true;
+                        break;
+                    case 2:
+                        cout << "Reportado\n";
+                        break;
+                    default:
+                        cout << "Opcion no valida\n";
+                        break;
+                }
                 break;
         }
-    }    
+    }   
 }
