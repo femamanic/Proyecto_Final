@@ -1,4 +1,4 @@
-#include "Contador.h"
+#include "GerenteGeneral.h"
 #include "structs.h"
 #include <iostream>
 
