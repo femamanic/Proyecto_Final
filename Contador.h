@@ -3,7 +3,6 @@
 
 void menuContador();
 void AprobarCheques();
-void AprobarNomina();
 
 
 #endif // !CONTADOR_H

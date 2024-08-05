@@ -5,8 +5,7 @@ void menuGerenteGeneral();
 void Contratar();
 void Despedir();
 void verRegistroDeEmpleados();
-void verRegistroDeInventario();
-void verReportesDeCompras();
-void verReportesDeVentas();
+void VerRegistrodeInventario();
+void AprobarCheques();
 
 #endif // GERENTEGENERAL_H

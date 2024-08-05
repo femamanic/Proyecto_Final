@@ -12,7 +12,6 @@ struct registro{
     string contra;
     float sueldo;
     string Area;
-    int horasDeTrabajo;
     bool sueldoAprobado = false;
 };
 
