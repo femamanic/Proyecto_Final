@@ -3,7 +3,7 @@
 using namespace std;
 
 void menuGerenteGeneral(){
-    int n;
+    int n,b=0;
     do{
         cout<<"------Bienvenido------\n";
         cout<<"1: contratar un nuevo empleado\n";
@@ -17,27 +17,32 @@ void menuGerenteGeneral(){
         switch (n)
         {
         case 1:
-        void Contratar();
+         Contratar();
             break;
         case 2:
-        void Despedir();
+         Despedir();
             break;
         case 3:
-        void verRegistroDeEmpleados();
+         verRegistroDeEmpleados();
             break;
         case 4:
-        void verRegistroDeInventario();
+         verRegistroDeInventario();
             break;
         case 5:
-        void verReportesDeCompras();
+         verReportesDeCompras();
             break;
         case 6:
-        void verReportesDeVentas();
+         verReportesDeVentas();
             break;
         default:
             cout<<"----ERROR----\n";
             cout<<"ingrese una opcion valida.\n";
+            b++;
             break;
+        }
+        if(b>3){
+            n=0;
+            cout<<"usted a excedido el maximo de intentos."<<endl;
         }
     }while(n!=0);
 } 
